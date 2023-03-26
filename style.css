@@ -1,0 +1,107 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+main{
+    background-image: url(images/bg-intro-desktop.png);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: hsl(0, 100%, 74%);
+    color: #fff;
+}
+
+h1{
+    font-size: 42px;
+    margin-bottom: 20px;
+}
+
+button,input{
+    width: 100%;
+    padding: 10px;
+    margin: 5px;
+}
+
+span{
+    font-weight:700;
+}
+
+.grid{
+    display: inline-grid;
+    grid-template-columns:auto auto;
+    padding: 15%;
+}
+
+.grid-item-1{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.grid-item-2{
+    padding: 30px;
+}
+
+.box{
+    background-color: hsl(248, 32%, 49%);
+    padding: 15px;
+    font-size: 13px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.input-box{
+    background-color: #fff;
+    margin-top: 20px;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+button{
+    background-color: hsl(154, 59%, 51%);
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color:hsl(154, 88%, 61%) ;
+}
+
+.tnc{
+    color:hsl(246, 25%, 77%);
+    font-size: 10px;
+    padding-top: 5px;
+}
+
+.tns{
+    color: hsl(0, 100%, 74%) ;
+}
+
+input{
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.right{
+    border-color:  hsl(246, 25%, 77%) 
+}
+
+.wrong{
+    border-color:  hsl(0, 100%, 74%);
+}
+
+.ico::before{
+    content: '';
+    background: url(images/icon-error.svg);
+
+}
