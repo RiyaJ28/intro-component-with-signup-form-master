@@ -31,12 +31,13 @@
         <div class="input-box">
           <form>
             <div>
-              <input id="f-name" class="ico" type="text" placeholder="First Name">
-              <input id="l-name" type="text" placeholder="Last Name ">
-              <input id="email" type="email" placeholder="Email Address">
-              <input id="pwd" type="password" placeholder="Password">
+              <input id="f-name" class="right" type="text" placeholder="First Name">
+              <p class="hidden">First name cannot be empty.</p>
+              <input id="l-name" class="right" type="text" placeholder="Last Name ">
+              <input id="email" class="right" type="email" placeholder="Email Address">
+              <input id="pwd" class="right" type="password" placeholder="Password">
             </div>
-            <button type="submit" href="#">Claim your free trial</button>
+            <button type="submit" onclick="sub();" href="#">Claim your free trial</button>
             <p class="tnc">By clicking the button, you are agreeing to our <a href="#" class="tns">Terms and Services</a></p>
           </form>
         </div>
